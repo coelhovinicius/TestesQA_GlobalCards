@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "cypress": "^13.17.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "scripts": {
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
+  }
+}

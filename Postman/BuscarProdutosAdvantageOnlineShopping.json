@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "1fba92e6-2703-4526-8606-25c64f354113",
+		"name": "Buscar Produtos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27042249"
+	},
+	"item": [
+		{
+			"name": "Buscar produto com sucesso",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://advantageonlineshopping.com/catalog/api/v1/products/id/15",
+					"protocol": "https",
+					"host": [
+						"advantageonlineshopping",
+						"com"
+					],
+					"path": [
+						"catalog",
+						"api",
+						"v1",
+						"products",
+						"id",
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar produto inexistente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://advantageonlineshopping.com/catalog/api/v1/products/id/inexistente",
+					"protocol": "https",
+					"host": [
+						"advantageonlineshopping",
+						"com"
+					],
+					"path": [
+						"catalog",
+						"api",
+						"v1",
+						"products",
+						"id",
+						"inexistente"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
